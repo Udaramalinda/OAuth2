@@ -1,0 +1,16 @@
+{
+    "name": "udara/php-o-auth",
+    "description": "Google Authentication server",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Udara\\PhpOAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Udara Malinda Wijesinghe"
+        }
+    ],
+    "require": {}
+}
