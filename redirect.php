@@ -4,8 +4,11 @@ session_start();
 if (isset($_GET['code'])) { // if the code param has been sent to this file
     $code = $_GET['code']; // put the code into a variable
     
-    $client_id = '1019511608894-0ubg2v65b0iqs5vcfcjms0m4j1sbglpo.apps.googleusercontent.com'; // client id from Google API Console
-    $client_secret = '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'; // client secret from Google API Console
+    // insert your client id given by google oauth2 gives
+    $client_id = client_secret.client_id; // client id from Google API Console
+
+    // insert your client secret given by google oauth2 gives
+    $client_secret = client_secret.client_secret; // client secret from Google API Console
     $redirect_uri = 'http://localhost:3000/redirect.php'; // url to redirect user to after login
     
     $token_url = 'https://accounts.google.com/o/oauth2/token'; // url to send curl request to get token

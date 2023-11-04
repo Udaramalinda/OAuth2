@@ -8,7 +8,10 @@ if (isset($_SESSION['access_token'])) { // if user is already logged in
 
 $auth_url = 'https://accounts.google.com/o/oauth2/auth'; // url to send user to Google to login
 $redirect_uri = 'http://localhost:3000/redirect.php'; // url to redirect user to after Google login
-$client_id = '1019511608894-0ubg2v65b0iqs5vcfcjms0m4j1sbglpo.apps.googleusercontent.com'; // client id from Google API Console
+
+// insert your client id given by google oauth2 gives
+$client_id = client_secret.client_id; // client id from Google API Console
+
 $scope = 'https://www.googleapis.com/auth/userinfo.profile'; // scope of data to retrieve from Google
 
 $login_url = $auth_url . '?redirect_uri=' . urlencode($redirect_uri) . '&client_id=' . $client_id . '&scope=' . $scope . '&response_type=code'; // create login url
