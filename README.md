@@ -2,9 +2,14 @@
 
 ## Overview
 
+![Home](Screenshot_2023-10-22_05-45-48.png)
+
 In response to the growing importance of robust and secure user authentication systems in the modern digital business landscape, Pandora Company Limited initiated a strategic project to streamline user authentication processes across their applications. The primary objective was to integrate a centralized user management system with OAuth2, a widely adopted and highly secure authentication protocol, providing users with the convenience of logging in using their Google accounts.
 
 This README provides a comprehensive overview of the implementation, detailing the architecture, components, security considerations, and key achievements of this transformative project. By enhancing user authentication through OAuth2 integration, Pandora Company Limited aims to elevate user experience, strengthen security, and pave the way for further technological advancements in their application ecosystem.
+
+![ridirectPage](Screenshot_2023-10-22_05-46-02.png)
+![Dashboard](Screenshot_2023-10-22_05-46-22.png)
 
 ## PHP Environment Setup
 
